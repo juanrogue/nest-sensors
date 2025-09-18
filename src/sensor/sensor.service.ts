@@ -12,15 +12,15 @@ export class SensorService {
     return `This action returns all sensor`;
   }
 
-  findOne(id: string):string {
-    return `This action returns a #${id} sensor`;
+  findOne(uuid: string):string {
+    return `This action returns a #${uuid} sensor`;
   }
 
-  update(id: string, updateSensorDto: UpdateSensorDto) {
-    return `This action updates a #${id} sensor`;
+  update(uuid: string, updateSensorDto: UpdateSensorDto) {
+    return `This action updates a #${uuid} sensor`;
   }
 
-  remove(id: string) {
-    return `This action removes a #${id} sensor`;
+  remove(uuid: string) {
+    return `This action removes a #${uuid} sensor`;
   }
 }
